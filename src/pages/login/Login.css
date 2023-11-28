@@ -1,0 +1,95 @@
+  /* Stile della pagina di login */
+  .login-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      background-color:#030404; /* Sfondo bianco */
+    }
+    
+    /* Stile dell'immagine di sfondo (prima parte) */
+    .login-image {
+      flex: 1;
+      width: 60%;
+    }
+
+    .img-background {
+      /* background-size: cover; */
+      width: 15%;
+      height: 35%;
+      position: absolute;
+      left: 2%;
+      bottom: 3%;
+    }
+
+    .img-background2 {
+      /* background-size: cover; */
+      width: 15%;
+      height: 35%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotate(120deg);
+    }
+    
+    /* Stile della seconda parte con il form (seconda parte) */
+    .login-form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #535bf2;
+      border-right: 0px solid #535bf2;
+      padding: 20px;
+      background-color:#06070f; /* Sfondo bianco */
+      width: 40%;
+      height: fit-content;
+    }
+    
+    /* Stile del form di login */
+    form {
+      width: 100%;
+      max-width: 400px; /* Larghezza massima del form */
+    }
+    
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .label-username {
+      margin-bottom: 8px;
+      color: whitesmoke;
+    }
+
+    .label-password {
+      margin-bottom: 8px;
+      color: whitesmoke;
+    }
+    
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    .btn-login {
+      width: 100%;
+      padding: 10px;
+      background-color:  #535bf2; /* Colore del bottone */
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .paragraph-registrati {
+      margin-top: 18px;
+      text-align: center;
+      color: #fff;
+    }
+    
+    a {
+      color: #535bf2; /* Colore del link */
+    }

@@ -1,0 +1,12 @@
+.BodyLayout2 {
+    background-color:#4F518C;
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "FirstElementLayout FirstElementLayout FirstElementLayout FirstElementLayout"
+      "SecondElementLayout SecondElementLayout ThirdElementLayout FourElementLayout"
+      "SecondElementLayout SecondElementLayout FiveElementLayout SixElement"; 
+}
