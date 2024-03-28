@@ -13,8 +13,6 @@ import pokemon from "../../assets/pokemon.png"
 import pokemon2 from "../../assets/Mimikyu-Pokemon-PNG-Photo-Image.png"
 import './Login.css';
 
-//** fare autenticazione con telefono usando SignInWithPhoneNumber **//
-
 const Login = () => {
 const [user,setUser] = useState("");
 const [password,setPassword] = useState("");
