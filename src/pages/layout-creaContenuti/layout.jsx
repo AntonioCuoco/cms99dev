@@ -1,5 +1,5 @@
 import MenuComponent from "../../components/menu/menuComponent"
-import Body from "../../components/bodyCreaContenuti/body/body"
+import Body from "../../components/bodyCreaContenuti(NEW)/body/body"
 import "./layout.css";
 
 const Layout = () => {
